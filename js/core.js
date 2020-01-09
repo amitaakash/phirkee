@@ -42,7 +42,7 @@ function _classCallCheck(instance, Constructor) {
 var root = typeof exports === 'undefined' ? window : exports;
 var config = {
   // An option to choose a suffix for 2x images
-  retina2ImageSuffix: '@2x',
+  retina2ImageSuffix: '',
   retina3ImageSuffix: '@3x',
 
   // Ensure Content-Type is an image before trying to load @2x image
@@ -2905,7 +2905,7 @@ var Gallery = (function () {
       }
 		
 		dispCount = itemsLength - showItems;
-		console.log(dispCount);
+		//console.log(dispCount);
 		if(dispCount>0){
 			
       	if (items[showItems - 1]) {
